@@ -228,7 +228,7 @@ const Home = () => {
                 <div className="card-product">
                   <div className="relative overflow-hidden">
                     <img
-                      src={product.image}
+                      src={product.images}
                       alt={product.name}
                       className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                     />

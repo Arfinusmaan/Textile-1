@@ -4,10 +4,10 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useApp } from '../context/AppContext';
 import { getFeaturedProducts, getTrendingProducts, categories } from '../data/products';
-import heroImage from '../assets/hero-ethnic-wear.jpg';
-import sareeImage from '../assets/saree-collection.jpg';
-import lehengaImage from '../assets/lehenga-collection.jpg';
-import mensImage from '../assets/mens-collection.jpg';
+const heroImage = '/hero-ethnic-wear.jpg';
+const sareeImage = '/saree-collection.jpg';
+const lehengaImage = '/lehenga-collection.jpg';
+const mensImage = '/mens-collection.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
